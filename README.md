@@ -12,12 +12,10 @@ git clone
 docker compose up -d
 ```
 
-3. Install the Deepseek models:
+3. Install the Deepseek models: (This might take a few minutes)
 
 ```sh
 docker compose exec ollama ollama pull deepseek-r1:7b
 ```
-
-This might take a few minutes
 
 4. Run the website on http://localhost:3001
